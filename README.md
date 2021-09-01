@@ -1,6 +1,13 @@
 # Smoking-Detection
-This is the project to detect a person smoking by using yolov4 Object detection and InceptionV3 for classification
+This is the project to detect a person smoking by using yolov4 Object detection and Convolutional Neural Network for classification
 This project is using google colab and webcam for person detection so make sure ur computer have webcam 
+
+# Algorithm
+### 1. First we use existing object detection model named yolov4
+### 2. The model can detect 80 types of object but we use it specifically only to detect person
+### 3. we crop the part of the image where the person is detected
+### 4. we train our CNN to clasify smoking and non smoking activity
+### 5. we feed the cropped image to the CNN model
 
 # How-to Use
 ### 1. Open google colab and upload the ipynb file.
